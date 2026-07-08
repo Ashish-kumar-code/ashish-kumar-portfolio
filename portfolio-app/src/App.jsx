@@ -1,9 +1,35 @@
-import Home from "./pages/Home"
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
-function App(){
+import MainLayout from "./layouts/MainLayout";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 
-    return <Home />
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
 
+        <Route element={<MainLayout />}>
+
+          <Route
+            path="/"
+            element={<Home />}
+          />
+
+        </Route>
+
+        <Route
+          path="*"
+          element={<NotFound />}
+        />
+
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
