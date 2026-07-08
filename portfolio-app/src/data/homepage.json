@@ -1,1 +1,16 @@
-{}
+{
+  "greeting": "Hello, I'm",
+
+  "name": "Ashish Kumar",
+
+  "roles": [
+    "Java Full Stack Developer",
+    "Data Analyst",
+    "AI Enthusiast",
+    "Open Source Learner"
+  ],
+
+  "description": "",
+
+  "resume": ""
+}
