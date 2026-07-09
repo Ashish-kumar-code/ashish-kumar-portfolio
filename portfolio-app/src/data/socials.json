@@ -8,5 +8,15 @@
     "name": "LinkedIn",
     "url": "https://www.linkedin.com/in/ashish-kumar-0552a32ab/",
     "icon": "linkedin"
+  },
+    {
+    "name": "Email",
+    "icon": "mail",
+    "url": "mailto:choubeyashish22@gmail.com"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/ashish_kumar_01/",
+    "icon": "instagram"
   }
 ]

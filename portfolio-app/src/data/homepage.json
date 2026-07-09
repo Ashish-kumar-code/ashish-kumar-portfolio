@@ -1,16 +1,18 @@
 {
   "greeting": "Hello, I'm",
-
   "name": "Ashish Kumar",
-
+  "designation": "Java Full Stack Developer",
   "roles": [
     "Java Full Stack Developer",
     "Data Analyst",
-    "AI Enthusiast",
-    "Open Source Learner"
+    "Gen AI Learner",
+    "Open Source Enthusiast"
   ],
-
-  "description": "",
-
-  "resume": ""
+  "description": "Final-year Computer Science student passionate about building scalable web applications, analyzing data, and exploring AI-powered solutions. I enjoy solving real-world problems through clean code and thoughtful design.",
+  "resume": "/resume/Ashish_Kumar_Resume.pdf",
+  "profileImage": "/images/profile.png",
+  "cta": {
+    "primary": "Download Resume",
+    "secondary": "Contact Me"
+  }
 }
