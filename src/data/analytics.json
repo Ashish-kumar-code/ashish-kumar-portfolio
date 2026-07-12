@@ -1,0 +1,25 @@
+{
+  "analyticsData": {
+    "kpis": [
+      { "title": "Data Cleaning Pipelines", "value": "4 Completed", "desc": "Messy CSVs parsed & loaded" },
+      { "title": "SQL Query Runtime Speedup", "value": "45% Faster", "desc": "Indexed transaction lookups" },
+      { "title": "EDA Visualizations Generated", "value": "50+ Charts", "desc": "Scatter, Heatmaps, KPI Cards" },
+      { "title": "Accuracy of Triage ML Models", "value": "90.2%", "desc": "Validations on test sets" }
+    ],
+    "edaCharts": {
+      "monthlySpend": [
+        { "month": "Jan", "food": 120, "rent": 500, "utilities": 80, "others": 150 },
+        { "month": "Feb", "food": 140, "rent": 500, "utilities": 90, "others": 110 },
+        { "month": "Mar", "food": 110, "rent": 500, "utilities": 85, "others": 190 },
+        { "month": "Apr", "food": 160, "rent": 500, "utilities": 100, "others": 130 },
+        { "month": "May", "food": 130, "rent": 500, "utilities": 80, "others": 240 }
+      ],
+      "correlationMatrix": [
+        { "x": "Age", "y": "Premium", "val": 0.85 },
+        { "x": "Age", "y": "BMI", "val": 0.62 },
+        { "x": "BMI", "y": "Premium", "val": 0.74 },
+        { "x": "Visits", "y": "Premium", "val": 0.41 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Satoshi", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-bg: #0B0B0C;
+  --color-bg-alt: #0E0E10;
+  --color-card: #111214;
+  --color-card-hover: #16171A;
+  --color-accent: #4F8CFF;
+  --color-accent-dev: #4F8CFF;
+  --color-accent-data: #FF9F43;
+  --color-text: #FFFFFF;
+  --color-text-dim: #A1A1AA;
+  --color-border: #1E2024;
+  --color-border-hover: #2E323A;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-bg);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-hover);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+
+/* Premium Animations and Utilities */
+@keyframes blink {
+  50% { opacity: 0; }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+@keyframes glow {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.3; }
+}
+
+.animate-blink { animation: blink 1s step-end infinite; }
+.animate-pulse-dot { animation: pulse 1.8s infinite; }
+.animate-glow { animation: glow 4s ease-in-out infinite; }
+
+/* Custom Glow Card effect */
+.glow-card {
+  position: relative;
+  transition: all 0.3s ease;
+}
+.glow-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(to bottom right, rgba(79, 140, 255, 0.1), transparent);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.glow-card:hover::after {
+  background: linear-gradient(to bottom right, rgba(79, 140, 255, 0.4), rgba(79, 140, 255, 0.05));
+}
+
+/* Accent Highlight Line */
+.animated-underline {
+  position: relative;
+}
+.animated-underline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--color-accent);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.animated-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+

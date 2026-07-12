@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "name": "Ashish Kumar",
+    "title": "Aspiring Full Stack Developer & Data Analyst",
+    "subTitle": "Building AI-powered Web Applications & Data-Driven Solutions",
+    "location": "Bangalore, India",
+    "availability": "Open to Full-Time Opportunities & SDE-1 / Data Analyst roles",
+    "email": "choubeyashish22@gmail.com",
+    "github": "https://github.com/Ashish-kumar-code",
+    "linkedin": "https://www.linkedin.com/in/ashish-kumar-0552a32ab/",
+    "resumeDev": "https://drive.google.com/file/d/1jTnfP212iutrsjGmS5MzlPt8KalVZAsl/view?usp=drive_link",
+    "resumeData": "https://drive.google.com/file/d/1ygVCUKDQrffjiEdhFmCL9AAlzJ_mlmP2/view?usp=drive_link"
+  },
+  "hireabilityCards": [
+    {
+      "title": "Full Stack Development",
+      "skills": ["React", "Flask", "REST API", "Authentication", "Vite", "Node.js"],
+      "description": "Building responsive user interfaces, robust REST APIs, and secure JWT-based authentication pipelines.",
+      "type": "dev"
+    },
+    {
+      "title": "Data Analytics",
+      "skills": ["Python", "SQL", "Pandas", "Power BI", "NumPy", "EDA"],
+      "description": "Transforming messy spreadsheets into normalized databases, running complex analytical queries, and creating clear reports.",
+      "type": "data"
+    },
+    {
+      "title": "AI Projects",
+      "skills": ["CNN", "LLM APIs", "TensorFlow", "OpenCV", "Applied AI"],
+      "description": "Deploying neural networks for image classification and parsing AST trees to integrate intelligence in workflow tools.",
+      "type": "dev"
+    },
+    {
+      "title": "Real Project Experience",
+      "skills": ["Internships", "Open Source", "GitHub Workflows", "Production Focus"],
+      "description": "Applying software engineering principles in internship environments to build scalable tools rather than toy projects.",
+      "type": "all"
+    }
+  ]
+}

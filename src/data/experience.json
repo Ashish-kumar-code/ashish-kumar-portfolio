@@ -1,0 +1,63 @@
+{
+  "aboutMe": {
+    "paragraphs": [
+      "I am a Computer Science graduate focused on building practical software solutions that combine modern web development with data-driven decision making.",
+      "My interests span full-stack engineering, backend APIs, AI-assisted applications, and analytics. I enjoy transforming real-world problems into scalable products while continuously learning new technologies."
+    ]
+  },
+  "timeline": [
+    { "year": "2022", "title": "Started B.Tech", "desc": "Began Computer Science & Engineering degree, focusing on core software engineering principles, algorithms, and databases." },
+    { "year": "2025", "title": "Web Developer Internship", "desc": "Interned at Innobyte Services. Overhauled a commercial website for a fully responsive mobile-first experience." },
+    { "year": "2025-26", "title": "AI Internship", "desc": "Interned at Infosys Springboard. Developed an AST-parsed Python docstring generator integrated with LLMs." },
+    { "year": "Built", "title": "Healthcare AI Platform", "desc": "Created Doc-AI, an 8-screen React/Flask diagnosis system with 10+ REST endpoints and CNN triage." },
+    { "year": "Built", "title": "Personal Finance System", "desc": "Engineered an SQLite-driven transaction management platform with normalized schemas and SQL reporting." },
+    { "year": "Currently", "title": "Java Full Stack & Analytics", "desc": "Expanding expertise into Java Spring Boot microservices, advanced Power BI reporting, and big data tools." }
+  ],
+  "experience": [
+    {
+      "org": "Infosys Springboard",
+      "role": "AI Intern",
+      "date": "Dec 2025 – Mar 2026",
+      "github": "https://github.com/Ashish-kumar-code/docstring-generator",
+      "work": "https://docstring-generator.streamlit.app/",
+      "bullets": [
+        "Docstring Generator: Created an end-to-end tool parsing Python files and feeding function context to LLMs.",
+        "AST Parsing: Leveraged Python's abstract syntax tree (AST) module to detect function boundaries, decorators, and variables.",
+        "LLM APIs: Implemented rate-limited API pipelines with fallback states for large code bases.",
+        "ML Workflows: Structured text parsing and code generation loops for automatic Google & NumPy style formats."
+      ]
+    },
+    {
+      "org": "Innobyte Services",
+      "role": "Web Developer Intern",
+      "date": "Jun 2025 – Jul 2025",
+      "github": "https://github.com/Ashish-kumar-code/innobytes_project",
+      "work": "https://ashish-kumar-code.github.io/innobytes_project/",
+      "bullets": [
+        "Responsive Website: Overhauled layout grids to ensure fluid scaling across small, medium, and ultra-wide devices.",
+        "UI Improvement: Standardized spacing, colors, and button hover states to reduce visual clutter.",
+        "Performance Optimization: Compressed media files and deferred script loading, resulting in a significantly faster first-paint speed."
+      ]
+    }
+  ],
+  "education": {
+    "degree": "B.Tech, Computer Science & Engineering",
+    "school": "Guru Gobind Singh Educational Society's Technical Campus, Bokaro",
+    "meta": "Sep 2022 – Jun 2026 · CGPA 7.51/10",
+    "schoolingDegree": "Intermediate (Science - PCM)",
+    "schoolingSchool": "Central Board of Secondary Education (CBSE)",
+    "schoolingMeta": "Passed July 2021 · Score: 92%"
+  },
+  "testimonials": [
+    {
+      "quote": "Ashish demonstrated exceptional problem-solving skills in integrating LLMs with AST parsing. His work on the docstring tool is highly innovative.",
+      "author": "Mentorship Lead",
+      "org": "Infosys Springboard"
+    },
+    {
+      "quote": "A self-motivated developer. Ashish redesigned our client interface ahead of schedule, showing great attention to responsive styling and performance details.",
+      "author": "Technical Supervisor",
+      "org": "Innobyte Services"
+    }
+  ]
+}

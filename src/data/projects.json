@@ -1,0 +1,87 @@
+{
+  "projects": [
+    {
+      "id": "doc-ai",
+      "title": "Doc-AI – Healthcare Diagnosis System",
+      "subtitle": "Unified Healthcare AI Platform",
+      "stack": ["React 18", "Vite", "React Router v6", "Tailwind CSS", "Flask", "Python", "REST API", "JWT"],
+      "metrics": {
+        "left": "8+ Pages",
+        "right": "10+ APIs"
+      },
+      "role": "Full Stack Developer",
+      "image": "/doc-ai-preview.png",
+      "bullets": [
+        "Problem: Manual doctor discovery and appointment booking is fragmented across multiple platforms, causing delays in patient care. Built a full-stack medical AI platform integrating 5 core modules – symptom triage, X-ray diagnosis, appointment booking, reports management, and FindCare provider search – into a single unified application, reducing patient navigation steps by ~60%.",
+        "Eliminated UI inconsistency across 8+ pages by engineering a reusable Tailwind CSS component library of 20+ components; enforced a mobile-first design system that achieved 100% responsive compatibility across all screen sizes and reduced per-page styling effort by ~40%.",
+        "Solved authentication fragmentation by designing 10+ Flask REST API endpoints with JWT-based stateless authentication, protected route middleware, and role-based access control – cutting unauthorised access surface area and enabling secure session handling without server-side state.",
+        "Decoupled frontend and backend by implementing React Router v6 for client-side routing across 8+ views and a centralised Axios API layer, reducing frontend-backend integration bugs by ~50% and enabling independent deployment of the React 18 frontend and Python/Flask backend."
+      ],
+      "github": "https://github.com/Ashish-kumar-code/DOC-AI-Healthcare-Diagnosis-System",
+      "liveDemo": "https://github.com/Ashish-kumar-code/DOC-AI-Healthcare-Diagnosis-System",
+      "architecture": {
+        "type": "api-flow",
+        "nodes": [
+          { "label": "React Client", "desc": "UI & File Uploads" },
+          { "label": "Flask Auth Gateway", "desc": "JWT Validation" },
+          { "label": "Triage & CNN Service", "desc": "TensorFlow Inference" },
+          { "label": "SQLite DB", "desc": "Schedules & Patient Records" }
+        ]
+      }
+    },
+    {
+      "id": "docstring-generator",
+      "title": "Automated Python Docstring Generator",
+      "subtitle": "AST-Based LLM Documentation Assistant",
+      "stack": ["Python", "AST", "Streamlit", "LLM APIs"],
+      "metrics": {
+        "left": "70% Faster",
+        "right": "100+ LOC"
+      },
+      "role": "AI Developer",
+      "image": "/docstring-preview.png",
+      "bullets": [
+        "Developed an AI-powered tool that auto-generates structured docstrings for Python functions and classes, reducing documentation effort by 70% across 100+ lines of source code in real time.",
+        "Implemented AST-based static code analysis to extract function signatures, arguments, return types, and class metadata; integrated LLM APIs for Google and NumPy-style output with rate-limiting."
+      ],
+      "github": "https://github.com/Ashish-kumar-code/docstring-generator",
+      "liveDemo": "https://ashish-kumar-docstring-generator.streamlit.app/",
+      "architecture": {
+        "type": "compiler-ast",
+        "nodes": [
+          { "label": "Python Code Input", "desc": "String stream" },
+          { "label": "AST Node Visitor", "desc": "Extract Class/Function nodes" },
+          { "label": "Context Builder", "desc": "Extract arguments & types" },
+          { "label": "Rate-limited LLM API", "desc": "Docstring generation & injection" }
+        ]
+      }
+    },
+    {
+      "id": "finance-manager",
+      "title": "AI Powered Personal Finance Management System",
+      "subtitle": "AI-Powered Budgeting & Accounting System",
+      "stack": ["Python", "SQLite"],
+      "metrics": {
+        "left": "1,000+ Transactions",
+        "right": "SQLite DB"
+      },
+      "role": "Full Stack Developer & DB Architect",
+      "image": "/finance-preview.png",
+      "bullets": [
+        "Developed an 8-module finance application covering expense tracking, budgeting, reporting, user auth, and data backup managing 1,000+ transaction records; reduced manual tracking effort by 60%.",
+        "Designed a normalised SQLite schema with automated income/expense reporting and CSV export functionality."
+      ],
+      "github": "https://github.com/Ashish-kumar-code/AI-Powered-Personal-Finance-Platform",
+      "liveDemo": "https://github.com/Ashish-kumar-code/AI-Powered-Personal-Finance-Platform",
+      "architecture": {
+        "type": "db-schema",
+        "nodes": [
+          { "label": "Users Table", "desc": "id (PK), name, email, hashed_pw" },
+          { "label": "Transactions Table", "desc": "id (PK), user_id (FK), category_id (FK), amount, date" },
+          { "label": "Budgets Table", "desc": "id (PK), user_id (FK), limit_amount, month" },
+          { "label": "Categories Table", "desc": "id (PK), name, type (income/expense)" }
+        ]
+      }
+    }
+  ]
+}

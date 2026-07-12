@@ -1,0 +1,34 @@
+{
+  "certifications": [
+    {
+      "title": "Neural Network and Deep Learning",
+      "issuer": "DeepLearning.AI (Coursera)",
+      "desc": "Mastered vectorization, deep neural network initialization, hyperparameter tuning, and backpropagation optimization algorithms.",
+      "link": "https://coursera.org/share/5398a3ed97dfc6866617ac13fceebf78"
+    },
+    {
+      "title": "Prompt Engineering with Generative AI",
+      "issuer": "Infosys Springboard",
+      "desc": "Mastered prompt template engineering, chain-of-thought instructions, and API workflow patterns for LLM integrations.",
+      "link": "https://drive.google.com/file/d/17UJFaEuDmfSyN8em32yjflE38d-XgEam/view?usp=drive_link"
+    },
+    {
+      "title": "HackQuinox 2025 Hackathon",
+      "issuer": "FCRIT, Navi Mumbai",
+      "desc": "Developed high-fidelity software prototypes for smart transportation and road safety under 24-hour hackathon pressure.",
+      "link": "https://www.linkedin.com/posts/ashish-kumar-0552a32ab_hackquinox2025-roadsafety-smarttransport-activity-7299844251465519105-eMUB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqdhoEB5P8Iyyr0Oka53D7RlmOorMziiTE"
+    },
+    {
+      "title": "Parakram '24 Technical Symposium",
+      "issuer": "IIT (ISM) Dhanbad",
+      "desc": "Participated in network security protocols, cryptography bootcamps, and competitive problem-solving challenges.",
+      "link": "https://drive.google.com/file/d/1KEdrt9KjGuHgsDRbDQiGhwAz1sMM-1KU/view?usp=drive_link"
+    },
+    {
+      "title": "Google Cloud Arcade Program",
+      "issuer": "Google Cloud",
+      "desc": "Completed hands-on labs in cloud architecture, virtual networks, and data query engines.",
+      "link": "#"
+    }
+  ]
+}

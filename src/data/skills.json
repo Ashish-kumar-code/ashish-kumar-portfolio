@@ -1,0 +1,39 @@
+{
+  "skillsGrouped": [
+    {
+      "category": "Languages",
+      "skills": ["Java", "Python", "JavaScript", "SQL", "HTML5 & CSS3"],
+      "type": "all"
+    },
+    {
+      "category": "Frontend",
+      "skills": ["React.js", "React Router v6", "Tailwind CSS", "Vite", "Responsive Design"],
+      "type": "dev"
+    },
+    {
+      "category": "Backend",
+      "skills": ["Spring Boot", "Spring Security", "Hibernate / JPA", "Flask", "REST APIs", "JWT Auth"],
+      "type": "dev"
+    },
+    {
+      "category": "Databases & Pipelines",
+      "skills": ["SQLite", "MySQL", "Database Schema Design", "Query Optimisation"],
+      "type": "all"
+    },
+    {
+      "category": "Analytics & AI",
+      "skills": ["Python (Pandas / NumPy)", "SQL Server", "Power BI", "Exploratory Data Analysis (EDA)", "TensorFlow", "CNN", "LLM APIs"],
+      "type": "data"
+    },
+    {
+      "category": "Cloud & Tools",
+      "skills": ["Git & GitHub", "VS Code", "Postman", "Linux Commands", "Docker"],
+      "type": "all"
+    }
+  ],
+  "learningRoadmap": [
+    { "topic": "Java Spring Boot Microservices", "details": "Configuring Eureka discovery registry, API gateway filters, Spring Security OAuth2, JPA relations.", "progress": 80, "status": "In Progress" },
+    { "topic": "Advanced Power BI & DAX analytics", "details": "Writing complex DAX queries, cohort analyses, performance tuning dashboards.", "progress": 50, "status": "In Progress" },
+    { "topic": "Generative AI (LangChain)", "details": "Chaining LLMs, vector database embeddings, Retrieval Augmented Generation (RAG) models.", "progress": 65, "status": "Learning" }
+  ]
+}
