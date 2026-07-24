@@ -72,7 +72,7 @@
         "Designed a normalised SQLite schema with automated income/expense reporting and CSV export functionality."
       ],
       "github": "https://github.com/Ashish-kumar-code/AI-Powered-Personal-Finance-Platform",
-      "liveDemo": "https://github.com/Ashish-kumar-code/AI-Powered-Personal-Finance-Platform",
+      "liveDemo": "https://ai-powered-personal-finance-platfor.vercel.app/",
       "architecture": {
         "type": "db-schema",
         "nodes": [
