@@ -111,8 +111,6 @@ function ArchitectureDiagram({ project }) {
   )
 }
 
-
-
 function ProjectRow({ project, index }) {
   const { accent, accentDim } = useMode()
   const [expanded, setExpanded] = useState(false)
@@ -276,6 +274,12 @@ function ProjectRow({ project, index }) {
 }
 
 export default function Projects() {
+  const [showAll, setShowAll] = useState(false)
+
+  // Slice to show only the first 3 projects initially
+  const displayedProjects = showAll ? projects : projects.slice(0, 3)
+  const hasMore = projects.length > 3
+
   return (
     <section id="projects" className="py-16 border-t border-[#1E2024]">
       <div className="max-w-6xl mx-auto px-6">
@@ -289,10 +293,34 @@ export default function Projects() {
         </div>
 
         <div className="flex flex-col">
-          {projects.map((p, idx) => (
+          {displayedProjects.map((p, idx) => (
             <ProjectRow key={p.id} project={p} index={idx} />
           ))}
         </div>
+
+        {/* More Projects / Show Less Button with Framer Motion Animation */}
+        {hasMore && (
+          <div className="mt-12 text-center">
+            <motion.button
+              onClick={() => setShowAll(!showAll)}
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="inline-flex items-center gap-2 px-6 py-3 text-xs font-mono font-medium text-white border border-[#1E2024] rounded-xl bg-[#0B0B0C] hover:border-[#2E323A] transition shadow-lg"
+            >
+              {showAll ? (
+                <>
+                  Show Less Projects
+                  <ChevronUp size={14} style={{ color: 'var(--accent, #4F8CFF)' }} />
+                </>
+              ) : (
+                <>
+                  More Projects ({projects.length - 3} More)
+                  <ChevronDown size={14} style={{ color: 'var(--accent, #4F8CFF)' }} />
+                </>
+              )}
+            </motion.button>
+          </div>
+        )}
       </div>
     </section>
   )
