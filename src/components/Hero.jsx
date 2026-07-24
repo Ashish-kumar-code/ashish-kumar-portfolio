@@ -20,7 +20,7 @@ export default function Hero() {
   ],
   currentlyLearning: [
     "Java Full Stack",
-    "Data Engineering"
+    "Data Analysts"
   ]
 }`
 
