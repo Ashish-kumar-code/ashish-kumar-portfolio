@@ -82,6 +82,33 @@
           { "label": "Categories Table", "desc": "id (PK), name, type (income/expense)" }
         ]
       }
+    },
+    {
+      "id": "innobytes-guest-house",
+      "title": "KingSukh Guest House Website Redesign",
+      "subtitle": "Responsive Hospitality Web App",
+      "stack": ["HTML", "Tailwind CSS", "JavaScript", "IntersectionObserver"],
+      "metrics": {
+        "left": "100% Responsive",
+        "right": "Optimized WebP"
+      },
+      "role": "Frontend Developer",
+      "image": "/assets/images/large.jpg",
+      "bullets": [
+        "Redesigned and modernized the KingSukh Guest House website with a responsive, visually appealing interface using Tailwind CSS and custom JavaScript animations.",
+        "Engineered a fully responsive navigation system, interactive room showcases, and a streamlined WhatsApp and Mailto-based booking inquiry workflow."
+      ],
+      "github": "https://github.com/Ashish-kumar-code/innobytes_project",
+      "liveDemo": "https://ashish-kumar-code.github.io/innobytes_project/",
+      "architecture": {
+        "type": "api-flow",
+        "nodes": [
+          { "label": "Client Layer", "desc": "Tailwind & HTML5" },
+          { "label": "Animations", "desc": "IntersectionObserver" },
+          { "label": "Inquiry System", "desc": "Mailto & WhatsApp CTA" },
+          { "label": "Deployment", "desc": "GitHub Pages" }
+      ]
     }
+  }
   ]
 }
