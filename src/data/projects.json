@@ -93,7 +93,7 @@
         "right": "Optimized WebP"
       },
       "role": "Frontend Developer",
-      "image": "/assets/images/large.jpg",
+      "image": "/large.jpg",
       "bullets": [
         "Redesigned and modernized the KingSukh Guest House website with a responsive, visually appealing interface using Tailwind CSS and custom JavaScript animations.",
         "Engineered a fully responsive navigation system, interactive room showcases, and a streamlined WhatsApp and Mailto-based booking inquiry workflow."
